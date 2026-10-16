@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-postgres",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p ${PORT:-3000}"
+  },
+  "dependencies": {
+    "next": "^15.5.28",
+    "pg": "^8.16.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.15.0",
+    "@types/react": "^19.1.0",
+    "typescript": "^5.8.0"
+  }
+}
